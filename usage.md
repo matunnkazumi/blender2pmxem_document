@@ -1,40 +1,41 @@
 ---
 layout: default
 ---
-# ダウンロード
+# 使い方ガイド
+## ダウンロード
 [Release](https://github.com/matunnkazumi/blender2pmxem/releases)ページから「blender2pmxem.zip」をクリックしてダウンロードしてください
 
 
-# インストール
+## インストール
 通常のアドオンと同様です。zipを展開してアドオンフォルダに置いてください。
 
-# アドオン設定
+## アドオン設定
 初めて使う場合は「日本語のボーン名を使う」の方がわかりやすいですかね？　お好みに応じてご自由に
 
 ![My helpful screenshot](/assets/image/tutorial/pref.png)
 
 
-# で、モデルを作りましょう。
+## で、モデルを作りましょう。
 ![My helpful screenshot](/assets/image/tutorial/modeling_start.png)
 
 サイドバー(nキーで表示)に色々な機能があるので、使ってみてください
 
 ![My helpful screenshot](/assets/image/tutorial/sidebar.png)
 
-# アーマチュアの雛形
+## アーマチュアの雛形
 まっさらから作る場合は、「アーマチュアの雛形をアペンド」のアーマチュアを使うと良いでしょう
 MMD標準のボーン構成のアーマチュアが追加されます
 
 ![My helpful screenshot](/assets/image/tutorial/append_armature.png)
 ![My helpful screenshot](/assets/image/tutorial/appended_armature.png)
 
-# ポーズ変更機能
+## ポーズ変更機能
 「Tポーズへ」「Aポーズへ」「リバインド」でポーズの変更が簡単にできます。
 
 ![My helpful screenshot](/assets/image/tutorial/UI_manual_pose_mode.png)
 ![My helpful screenshot](/assets/image/tutorial/a_stance.png)
 
-# テクスチャ設定
+## テクスチャ設定
 テクスチャは、プリンシプルBSDFのベースカラーに画像テクスチャノードを設定してください。エクスポート時に反映されます
 
 * マテリアルにプリンシプルBSDFノードを設定  
@@ -44,7 +45,7 @@ MMD標準のボーン構成のアーマチュアが追加されます
 * 「開く」からテクスチャ画像ファイルを指定  
   ![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_image_file.png)
 
-# だいたい出来上がったらエクスポートしましょう。
+## だいたい出来上がったらエクスポートしましょう。
 ![My helpful screenshot](/assets/image/tutorial/export.png)
 
 エクスポートするメッシュにはマテリアルとアーマチュアモディファイアーを設定してください。
@@ -53,22 +54,22 @@ MMD標準のボーン構成のアーマチュアが追加されます
 ![My helpful screenshot](/assets/image/tutorial/armature_modifier.png)
 ![My helpful screenshot](/assets/image/tutorial/material.png)
 
-# エクスポート
+## エクスポート
 アーマチュアオブジェクトを選択すると、エクスポートメニューのPMXエクスポートが有効になります。
 
 ![My helpful screenshot](/assets/image/tutorial/select_armature.png)
 
-# PMXエディタで材質設定
+## PMXエディタで材質設定
 Blenderのマテリアルの色は反映されないので、PMXエディタで設定してください
 
 ![My helpful screenshot](/assets/image/tutorial/pmx_editor_material_color.png)
 
-# PMXエディタで物理演算設定
+## PMXエディタで物理演算設定
 画像は曲面自動設定プラグイン
 
 ![My helpful screenshot](/assets/image/tutorial/kyokumen_plugin.png)
 
-# PMXファイル情報の取り込み
+## PMXファイル情報の取り込み
 PMXエディタのセットアップした内容は、ある程度なら、Blender側に書き戻すことができます
 
 サイドバーの「XMLファイル作成」機能でXMLファイルを作ってください
@@ -76,7 +77,7 @@ PMXエディタのセットアップした内容は、ある程度なら、Blend
 
 ![My helpful screenshot](/assets/image/tutorial/make_xml.png)
 
-# XMLを使って再エクスポート
+## XMLを使って再エクスポート
 エクスポートするpmxファイルと同じ名前のXMLファイルがあると、保存された内容が復元されます
 再セットアップの手間が(ある程度)省けます
 ※ 材質モーフやUVモーフなど保存できない項目もあります
