@@ -37,9 +37,12 @@ MMD標準のボーン構成のアーマチュアが追加されます
 # テクスチャ設定
 テクスチャは、プリンシプルBSDFのベースカラーに画像テクスチャノードを設定してください。エクスポート時に反映されます
 
-![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf.png)
-![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_base_color_node.png)
-![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_image_file.png)
+* マテリアルにプリンシプルBSDFノードを設定  
+  ![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf.png)
+* ベースカラーの「○」アイコンから画像テクスチャノードを選択  
+  ![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_base_color_node.png)
+* 「開く」からテクスチャ画像ファイルを指定  
+  ![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_image_file.png)
 
 # だいたい出来上がったらエクスポートしましょう。
 ![My helpful screenshot](/assets/image/tutorial/export.png)
