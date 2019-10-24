@@ -2,7 +2,7 @@
 layout: default
 ---
 # 頂点グループメニュー
-![頂点グループメニュー](images/UI_manual_vertex_group_menu.png)
+![頂点グループメニュー](/assets/image/features/UI_manual_vertex_group_menu.png)
 
 このアドオンにより頂点グループのメニューに以下が追加されます。
 

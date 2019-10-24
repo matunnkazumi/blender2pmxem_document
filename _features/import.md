@@ -2,14 +2,14 @@
 layout: default
 ---
 # インポート
-![インポートメニュー](images/UI_manual_import.png)
+![インポートメニュー](/assets/image/features/UI_manual_import.png)
 
 このアドオンにより、メニューのインポートに以下が追加されます。
 
 ## 項目
 
 ### PMXファイル for MMD (機能拡張版) (.pmx)
-![インポートパラメータ](images/UI_manual_importer_parameters.png)
+![インポートパラメータ](/assets/image/features/UI_manual_importer_parameters.png)
 
 #### ボーンの位置を自動調整する
 以下のボーンの位置を調整します。

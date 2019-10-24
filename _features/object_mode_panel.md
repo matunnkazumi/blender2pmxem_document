@@ -2,7 +2,7 @@
 layout: default
 ---
 # オブジェクトモード
-![オブジェクトモード時サイドバー](images/UI_manual_object_mode.png)
+![オブジェクトモード時サイドバー](/assets/image/features/UI_manual_object_mode.png)
 
 このアドオンにより、オブジェクトモード時にサイドバーに以下が追加されます。
 
@@ -27,7 +27,7 @@ PMXエディタの同名機能を模倣したものです。頂点に乗って�
 ### XMLファイル作成
 .pmxファイルからXMLを生成します。オプションに応じて.pmxファイルの内容を開いている.blendファイルにも取り込みます。
 
-![XMLファイルを作成 オプション](images/UI_manual_object_mode_make_xml_options.png)
+![XMLファイルを作成 オプション](/assets/image/features/UI_manual_object_mode_make_xml_options.png)
 
 * ボーンを修正
 

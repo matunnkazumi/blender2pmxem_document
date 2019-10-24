@@ -2,7 +2,7 @@
 layout: default
 ---
 # 編集モード
-![編集モード時サイドバー](images/UI_manual_edit_mode.png)
+![編集モード時サイドバー](/assets/image/features/UI_manual_edit_mode.png)
 
 このアドオンにより、アーマチュアの編集モード時にサイドバーに以下が追加されます。
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 # アドオンのプリファレンス
-![アドオンのプリファレンス](images/UI_manual_preference.png)
+![アドオンのプリファレンス](/assets/image/features/UI_manual_preference.png)
 
 ## 項目
 

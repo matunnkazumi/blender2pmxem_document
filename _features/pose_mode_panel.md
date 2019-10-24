@@ -2,7 +2,7 @@
 layout: default
 ---
 # ポーズモード
-![ポーズモード時サイドバー](images/UI_manual_pose_mode.png)
+![ポーズモード時サイドバー](/assets/image/features/UI_manual_pose_mode.png)
 
 このアドオンにより、ポーズモード時にサイドバーに以下が追加されます。
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 # エクスポート
-![エクスポートメニュー](images/UI_manual_export.png)
+![エクスポートメニュー](/assets/image/features/UI_manual_export.png)
 
 このアドオンにより、メニューのエクスポートに以下が追加されます。
 
@@ -11,7 +11,7 @@ layout: default
 ### PMXファイル for MMD (機能拡張版) (.pmx)
 アーマチュアオブジェクトを選択しているときのみ有効になります。
 
-![エクスポートパラメータ](images/UI_manual_exporter_parameters.png)
+![エクスポートパラメータ](/assets/image/features/UI_manual_exporter_parameters.png)
 
 #### Encode
 文字列のエンコード形式。UTF-16とUTF-8から選択できます。
