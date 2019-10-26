@@ -42,8 +42,27 @@ body {
 	background-size: auto $block_height;
     }
 }
+.index-main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include mq_large {
+	margin-left: 500px;
+	margin-right: 500px;
+    }
+    @include mq_middle {
+	margin-left: 150px;
+	margin-right: 150px;
+    }
+    @include mq_small {
+	margin-left: 16px;
+	margin-right: 16px;
+    }
+}
 .section-card {
     padding: 16px;
+    + .section-card {
+	margin-top: 20px;
+    }
 }
 a.article-header-title_link {
     color: currentcolor;
