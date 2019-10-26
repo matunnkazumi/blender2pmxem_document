@@ -3,8 +3,8 @@ layout: default
 ---
 # エクスポート処理でのIKの変換
 
-![IKコンストレイントのパラメータの変換](images/TIPS_ik_conversion_constraints.png)
-![Linkの変換](images/TIPS_ik_conversion_links.png)
+![IKコンストレイントのパラメータの変換](/assets/image/misc/ik_conversion_constraints.png)
+![Linkの変換](/assets/image/misc/ik_conversion_links.png)
 
 ## 変換の方法
 

@@ -11,10 +11,10 @@ layout: default
 以下のように設定してください。
 
 * マテリアルにプリンシプルBSDFノードを設定  
-  ![プリンシプルBSDFノード](images/PMX_Blender_Material_principled_bsdf.png)
+  ![プリンシプルBSDFノード](/assets/image/misc/Blender_Material_principled_bsdf.png)
 * ベースカラーの「○」アイコンから画像テクスチャノードを選択  
-  ![ベースカラーに画像テクスチャを設定](images/PMX_Blender_Material_principled_bsdf_base_color_node.png)
+  ![ベースカラーに画像テクスチャを設定](/assets/image/misc/Blender_Material_principled_bsdf_base_color_node.png)
 * 「開く」からテクスチャ画像ファイルを指定  
-  ![画像ファイルを設定する前](images/PMX_Blender_Material_principled_bsdf_image_file.png)
+  ![画像ファイルを設定する前](/assets/image/misc/Blender_Material_principled_bsdf_image_file.png)
 
 上記のテクスチャ画像が、PMXの材質のテクスチャ設定に反映されます

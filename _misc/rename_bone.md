@@ -10,7 +10,7 @@ layout: default
 ## 命名規則
 ボーンの名前は、`ボーンの名前_0_0`のように、`_`で3つの部分に区切ったものになります。
 
-![命名規則](images/TIPS_bone_rename_rule.png)
+![命名規則](/assets/image/misc/bone_rename_rule.png)
 
 2番目の部分の数字が縦方向に増え、3番目の部分の数字が横方向に増えていく形式になります。
 
@@ -20,17 +20,17 @@ layout: default
 
 まず、各列の根元のボーンを、この形式に沿った名前にします。これは手作業で行ってください。
 
-![一番上だけ名前](images/TIPS_bone_rename_before_rename.png)
+![一番上だけ名前](/assets/image/misc/bone_rename_before_rename.png)
 
 で、根元のボーンをそれぞれ選択し、「縦列をリネーム」を実行すると、子孫のボーンも規則に沿った名前になります。
 
-![縦列リネーム](images/TIPS_bone_rename_vertical.png)
+![縦列リネーム](/assets/image/misc/bone_rename_vertical.png)
 
 ## L/Rに変換・連番に変換
 
 さらに、このボーン名を、左右を見て`_L`もしくは`_R`を付与したり、逆にその末尾を取り除くことが出来ます。
 
-![L/Rに変換](images/TIPS_bone_rename_lr.png)
-![連番に変換](images/TIPS_bone_rename_no_lr.png)
+![L/Rに変換](/assets/image/misc/bone_rename_lr.png)
+![連番に変換](/assets/image/misc/bone_rename_no_lr.png)
 
 この処理の際、横方向の番号は振り直されます。

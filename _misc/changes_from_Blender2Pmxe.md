@@ -7,7 +7,7 @@ layout: default
 
 ### マテリアル
 
-![プリンシプルBSDFノード](images/PMX_Blender_Material_principled_bsdf.png)
+![プリンシプルBSDFノード](/assets/image/misc/Blender_Material_principled_bsdf.png)
 
 * PMX形式の材質の設定は、BlenderのマテリアルのプリンシプルBSDFノードと対応させています
   * 拡散色 → ベースカラー
@@ -48,7 +48,7 @@ PMXエディタの「PMXデータの状態検証」を参考にしています�
 
 ## ツールのUI
 
-![2.7のツールシェルフ](images/TIPS_changes_tool_shelf_2.7.png) ![2.8のサイドバー](images/TIPS_changes_side_bar_2.8.png)
+![2.7のツールシェルフ](/assets/image/misc/changes_tool_shelf_2.7.png) ![2.8のサイドバー](/assets/image/misc/changes_side_bar_2.8.png)
 
 * ツールシェルフからサイドバーに移動しました
 * 以下を削除しました
@@ -67,4 +67,4 @@ PMXエディタの「PMXデータの状態検証」を参考にしています�
 
 「裏面を非表示」に関しては、APIの挙動が若干変わったため単純な置換ではUI的に若干誤解を招きやすくなったことと、同機能のチェックボックスがすぐ近くにあることから、便利機能として抱えておく意味があまり無いと判断したため、削除しました。
 
-![3Dビューのシェーディング](images/TIPS_changes_3D_view_shading.png)
+![3Dビューのシェーディング](/assets/image/misc/changes_3D_view_shading.png)
