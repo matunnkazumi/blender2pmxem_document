@@ -9,3 +9,11 @@ collections:
     output: true
 
 exclude: [README.md, Gemfile, Gemfile.lock]
+
+url: https://blender2pmxem.netlify.com
+
+lang: ja_JP
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
