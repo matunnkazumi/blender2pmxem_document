@@ -14,3 +14,4 @@ url: https://blender2pmxem.netlify.com/
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
