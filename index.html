@@ -31,4 +31,11 @@ layout: default
 </section>
 <section>
   <h1>その他</h1>
+  <ul>
+    {% for misc in site.misc %}
+    <li>
+      <a href="{{ misc.url }}" title="{{ misc.title }}">{{ misc.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
