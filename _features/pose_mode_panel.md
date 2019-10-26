@@ -1,5 +1,6 @@
 ---
 layout: default
+date: 2019-10-25 00:50:36 +0900
 ---
 # ポーズモード
 ![ポーズモード時サイドバー](/assets/image/features/UI_manual_pose_mode.png)

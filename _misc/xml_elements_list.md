@@ -1,6 +1,7 @@
 ---
 layout: default
 title: XMLの項目
+date: 2019-10-26 14:31:15 +0900
 ---
 # pmxstatus
 ## pmdinfo

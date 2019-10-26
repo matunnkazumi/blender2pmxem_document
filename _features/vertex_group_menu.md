@@ -1,5 +1,6 @@
 ---
 layout: default
+date: 2019-10-25 00:50:36 +0900
 ---
 # 頂点グループメニュー
 ![頂点グループメニュー](/assets/image/features/UI_manual_vertex_group_menu.png)

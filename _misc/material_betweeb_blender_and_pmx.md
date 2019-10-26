@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PMX形式の材質とBlenderのマテリアルとの対応関係
+date: 2019-10-26 14:31:15 +0900
 ---
 基本的には、PMX形式の材質の設定・確認はPMXエディタとMikuMikuDanceで行ってください。
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+date: 2019-10-25 00:54:45 +0900
 ---
 # オブジェクトモード
 ![オブジェクトモード時サイドバー](/assets/image/features/UI_manual_object_mode.png)
