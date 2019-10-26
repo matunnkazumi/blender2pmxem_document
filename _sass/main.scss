@@ -1,3 +1,47 @@
+@mixin mq_large {
+  @media screen and (min-width: 1920px) {
+    @content;
+  }
+}
+@mixin mq_middle {
+  @media screen and (max-width: 1920px) {
+    @content;
+  }
+}
+@mixin mq_small {
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+
+body {
+    margin: 0px;
+}
+.index-header {
+    text-align: center;
+    $block_height: 500px;
+    &-title {
+	line-height: $block_height !important
+    }
+    &-summary {
+	text-align: right;
+    }
+
+    height: $block_height;
+    background-image:url("/assets/image/common/top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include mq_large {
+	background-size: cover;
+    }
+    @include mq_middle {
+	background-size: auto 500px;
+    }
+    @include mq_small {
+	background-size: 150%;
+    }
+}
 .section-card {
     padding: 16px;
 }
