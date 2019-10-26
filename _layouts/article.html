@@ -10,9 +10,14 @@
 	  </a>
 	</section>
 	<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
-	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Download">file_download</button>
-	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Print this page">print</button>
-	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Bookmark this page">bookmark</button>
+	  <a class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded"
+	     aria-label="Project repository"
+	     href="https://github.com/matunnkazumi/blender2pmxem"
+	     title="GitHubのプロジェクトページ"
+	     target="_blank"
+	     >
+	    <i class="fab fa-github"></i>
+	  </a>
 	</section>
       </div>
     </header>
@@ -29,17 +34,49 @@
 	</div>
 	<div class="article-card__actions mdc-card__actions">
 	  <div class="mdc-card__action-icons">
-	    <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
-              <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
-              <i class="material-icons mdc-icon-button__icon">favorite_border</i>
-	    </button>
-	    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
-	    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button>
-    </div>
-  </div>
-</div>
-      
-
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by twitter"
+	       title="Twitter"
+	       	       data-mdc-ripple-is-unbounded="true"
+	       href="https://twitter.com/share?url={{ site.url | escape }}{{ page.url | escape }}"
+	       target="_blank"
+	       >
+	      <i class="fab fa-twitter"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by facebook"
+	       title="facebook"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | escape }}{{ page.url | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-facebook-square"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by twitter"
+	       title="Pocket"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://getpocket.com/edit?url={{ site.url | escape }}{{ page.url | escape }}&title={{ page.title | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-get-pocket"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by はてなブックマーク"
+	       title="はてなブックマーク"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://b.hatena.ne.jp/add?mode=confirm&url={{ site.url | escape }}{{ page.url | escape }}&title={{ page.title | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-bootstrap"></i>
+	    </a>
+	  </div>
+	</div>
+      </div>
     </main>
   </body>
 </html>
