@@ -1,5 +1,6 @@
 ---
 layout: default
+title: PMX形式の材質とBlenderのマテリアルとの対応関係
 ---
 基本的には、PMX形式の材質の設定・確認はPMXエディタとMikuMikuDanceで行ってください。
 

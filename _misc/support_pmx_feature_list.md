@@ -1,5 +1,6 @@
 ---
 layout: default
+title: PMX対応項目
 ---
 # エクスポーター・インポーターが対応しているPMXの項目
 

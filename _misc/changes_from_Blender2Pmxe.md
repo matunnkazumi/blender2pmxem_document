@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Blender2Pmxeとの違い
 ---
 # Blender2Pmxeとの違い
 

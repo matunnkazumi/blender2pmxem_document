@@ -1,5 +1,6 @@
 ---
 layout: default
+title: XMLの項目
 ---
 # pmxstatus
 ## pmdinfo
