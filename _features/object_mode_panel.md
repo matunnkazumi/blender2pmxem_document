@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: article
+title: オブジェクトモード
 date: 2019-10-25 00:54:45 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
-# オブジェクトモード
 ![オブジェクトモード時サイドバー](/assets/image/features/UI_manual_object_mode.png)
 
 このアドオンにより、オブジェクトモード時にサイドバーに以下が追加されます。

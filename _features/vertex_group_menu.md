@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: article
+title: 頂点グループメニュー
 date: 2019-10-25 00:50:36 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
-# 頂点グループメニュー
 ![頂点グループメニュー](/assets/image/features/UI_manual_vertex_group_menu.png)
 
 このアドオンにより頂点グループのメニューに以下が追加されます。

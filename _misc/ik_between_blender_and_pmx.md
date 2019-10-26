@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: article
 title: IKの変換
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
-# エクスポート処理でのIKの変換
 
 ![IKコンストレイントのパラメータの変換](/assets/image/misc/ik_conversion_constraints.png)
 ![Linkの変換](/assets/image/misc/ik_conversion_links.png)

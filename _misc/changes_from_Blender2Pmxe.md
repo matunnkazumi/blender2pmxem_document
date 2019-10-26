@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: article
 title: Blender2Pmxeとの違い
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
-# Blender2Pmxeとの違い
 
 ## インポート・エクスポート
 

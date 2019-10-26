@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: article
 title: PMX形式の材質とBlenderのマテリアルとの対応関係
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
 基本的には、PMX形式の材質の設定・確認はPMXエディタとMikuMikuDanceで行ってください。
 
 材質色の設定はXMLに保存されます。
 
-# テクスチャ
+## テクスチャ
 テクスチャ画像に関しては、UVの編集等の必要もありますので、Blender上の設定値を取得します。
 
 以下のように設定してください。

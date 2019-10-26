@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+  {% include head_element.html %}
+  <body class="mdc-typography">
+    <header class="mdc-top-app-bar">
+      <div class="mdc-top-app-bar__row">
+	<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+	  <a class="mdc-top-app-bar__title article-header-title_link" href="/">
+	    blender2pmxe
+	  </a>
+	</section>
+	<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+	  <a class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded"
+	     aria-label="Project repository"
+	     href="https://github.com/matunnkazumi/blender2pmxem"
+	     title="GitHubのプロジェクトページ"
+	     target="_blank"
+	     >
+	    <i class="fab fa-github"></i>
+	  </a>
+	</section>
+      </div>
+    </header>
+    <main class="mdc-typography--body1 mdc-top-app-bar--fixed-adjust">
+
+      <div class="article-card mdc-card mdc-elevation--z1">
+	<div class="article-card__primary-action mdc-card__primary-action" tabindex="0">
+	  <h1 class="mdc-typography mdc-typography--headline2">
+	    {{ page.title }}
+	  </h1>
+	  <div class="mdc-typography mdc-typography--body2">
+	    {{ content }}
+	  </div>
+	</div>
+	<div class="article-card__actions mdc-card__actions">
+	  <div class="mdc-card__action-icons">
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by twitter"
+	       title="Twitter"
+	       	       data-mdc-ripple-is-unbounded="true"
+	       href="https://twitter.com/share?url={{ site.url | escape }}{{ page.url | escape }}"
+	       target="_blank"
+	       >
+	      <i class="fab fa-twitter"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by facebook"
+	       title="facebook"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | escape }}{{ page.url | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-facebook-square"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by twitter"
+	       title="Pocket"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://getpocket.com/edit?url={{ site.url | escape }}{{ page.url | escape }}&title={{ page.title | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-get-pocket"></i>
+	    </a>
+	    <a class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+	       aria-pressed="false"
+	       aria-label="Share by はてなブックマーク"
+	       title="はてなブックマーク"
+	       data-mdc-ripple-is-unbounded="true"
+	       href="https://b.hatena.ne.jp/add?mode=confirm&url={{ site.url | escape }}{{ page.url | escape }}&title={{ page.title | escape }}"
+	       target="_blank"
+	       >
+		<i class="fab fa-bootstrap"></i>
+	    </a>
+	  </div>
+	</div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+@mixin mq_large {
+  @media screen and (min-width: 1920px) {
+    @content;
+  }
+}
+@mixin mq_middle {
+  @media screen and (min-width: 720px) and (max-width: 1920px) {
+    @content;
+  }
+}
+@mixin mq_small {
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+
+body {
+    margin: 0px;
+}
+.index-header {
+    text-align: center;
+    $block_height: 500px;
+    &-title {
+	line-height: $block_height !important
+    }
+    &-summary {
+	text-align: right;
+    }
+
+    height: $block_height;
+    background-image:url("/assets/image/common/top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include mq_large {
+	background-size: cover;
+    }
+    @include mq_middle {
+	background-size: auto $block_height;
+    }
+    @include mq_small {
+	background-size: auto $block_height;
+    }
+}
+.index-main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include mq_large {
+	margin-left: 500px;
+	margin-right: 500px;
+    }
+    @include mq_middle {
+	margin-left: 150px;
+	margin-right: 150px;
+    }
+    @include mq_small {
+	margin-left: 16px;
+	margin-right: 16px;
+    }
+}
+.section-card {
+    padding: 16px;
+    + .section-card {
+	margin-top: 20px;
+    }
+}
+a.article-header-title_link {
+    color: currentcolor;
+    text-decoration: none;
+}
+.article-card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @include mq_large {
+	margin-left: 500px;
+	margin-right: 500px;
+    }
+    @include mq_middle {
+	margin-left: 150px;
+	margin-right: 150px;
+    }
+    @include mq_small {
+	margin-left: 16px;
+	margin-right: 16px;
+    }
+
+    &__primary-action {
+	padding-top: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+    }
+    &__actions {
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+    }
+
+    img {
+	max-width: 100%;
+    }
+    p {
+	margin-left: 50px;
+    }
+}
