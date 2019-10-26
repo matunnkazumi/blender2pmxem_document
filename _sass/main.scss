@@ -4,7 +4,7 @@
   }
 }
 @mixin mq_middle {
-  @media screen and (max-width: 1920px) {
+  @media screen and (min-width: 720px) and (max-width: 1920px) {
     @content;
   }
 }
@@ -44,4 +44,42 @@ body {
 }
 .section-card {
     padding: 16px;
+}
+a.article-header-title_link {
+    color: currentcolor;
+    text-decoration: none;
+}
+.article-card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @include mq_large {
+	margin-left: 500px;
+	margin-right: 500px;
+    }
+    @include mq_middle {
+	margin-left: 150px;
+	margin-right: 150px;
+    }
+    @include mq_small {
+	margin-left: 16px;
+	margin-right: 16px;
+    }
+
+    &__primary-action {
+	padding-top: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+    }
+    &__actions {
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+    }
+
+    img {
+	max-width: 100%;
+    }
+    p {
+	margin-left: 50px;
+    }
 }

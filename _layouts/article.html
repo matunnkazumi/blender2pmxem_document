@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  {% include head_element.html %}
+  <body class="mdc-typography">
+    <header class="mdc-top-app-bar">
+      <div class="mdc-top-app-bar__row">
+	<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+	  <a class="mdc-top-app-bar__title article-header-title_link" href="/">
+	    blender2pmxe
+	  </a>
+	</section>
+	<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Download">file_download</button>
+	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Print this page">print</button>
+	  <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Bookmark this page">bookmark</button>
+	</section>
+      </div>
+    </header>
+    <main class="mdc-typography--body1 mdc-top-app-bar--fixed-adjust">
+
+      <div class="article-card mdc-card mdc-elevation--z1">
+	<div class="article-card__primary-action mdc-card__primary-action" tabindex="0">
+	  <h1 class="mdc-typography mdc-typography--headline2">
+	    {{ page.title }}
+	  </h1>
+	  <div class="mdc-typography mdc-typography--body2">
+	    {{ content }}
+	  </div>
+	</div>
+	<div class="article-card__actions mdc-card__actions">
+	  <div class="mdc-card__action-icons">
+	    <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+              <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+              <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+	    </button>
+	    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+	    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button>
+    </div>
+  </div>
+</div>
+      
+
+    </main>
+  </body>
+</html>
