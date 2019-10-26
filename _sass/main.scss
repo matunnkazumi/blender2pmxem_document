@@ -36,10 +36,10 @@ body {
 	background-size: cover;
     }
     @include mq_middle {
-	background-size: auto 500px;
+	background-size: auto $block_height;
     }
     @include mq_small {
-	background-size: 150%;
+	background-size: auto $block_height;
     }
 }
 .section-card {
