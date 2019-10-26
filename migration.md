@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: article
+title: Blender 2.79以前 + Blender2Pmxe からの移行ガイド
 date: 2019-10-25 00:05:01 +0900
-last_modified_at: 2019-10-26 16:32:23 +0900
+last_modified_at: 2019-10-27 00:39:17 +0900
 ---
-# Blender 2.79以前 + Blender2Pmxe からの移行ガイド
 Blender 2.79以前 + Blender2Pmxe でMMDモデルを作っていた場合の、blendファイルとXMLファイルの移行手順のガイドラインです
 
 あくまで、ドキュメント製作者の運用方法を元にした手順ですので、皆様の使い方に合わせて適宜アレンジしてください
