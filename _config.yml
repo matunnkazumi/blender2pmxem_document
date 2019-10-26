@@ -5,5 +5,7 @@ description: >-
 collections:
   features:
     output: true
+  misc:
+    output: true
 
 exclude: [README.md, Gemfile, Gemfile.lock]
