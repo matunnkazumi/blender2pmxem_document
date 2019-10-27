@@ -2,7 +2,7 @@
 layout: article
 title: 使い方ガイド
 date: 2019-10-26 14:44:30 +0900
-last_modified_at: 2019-10-27 00:39:17 +0900
+last_modified_at: 2019-10-27 16:43:53 +0900
 ---
 ## ダウンロード
 [Release](https://github.com/matunnkazumi/blender2pmxem/releases)ページから「blender2pmxem.zip」をクリックしてダウンロードしてください
@@ -73,6 +73,8 @@ Blenderのマテリアルの色は反映されないので、PMXエディタで�
 
 ## PMXファイル情報の取り込み
 PMXエディタのセットアップした内容は、ある程度なら、Blender側に書き戻すことができます
+
+![ファイル情報の取り込み図解](/assets/image/tutorial/import_export_file_relation.png)
 
 サイドバーの「XMLファイル作成」機能でXMLファイルを作ってください
 この中に、材質の色や、剛体・ジョイントの情報が保存されます
