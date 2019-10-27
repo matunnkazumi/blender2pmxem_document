@@ -6,5 +6,39 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <script src="https://kit.fontawesome.com/907a1a0884.js" crossorigin="anonymous"></script>
+  <script>
+    function queryAndForEach(selector, cb) {
+	const nodelist = document.querySelectorAll(selector);
+	var nodes = Array.prototype.slice.call(nodelist, 0); // IE11対策
+	nodes.forEach(cb)
+    }
+    window.onload = function() {
+	queryAndForEach('table', function(el) {
+	    const container = document.createElement('div');
+	    container.className = 'mdc-data-table table_container';
+
+	    const parent = el.parentElement;
+	    parent.insertBefore(container, el);
+	    
+	    el.className = 'mdc-data-table__table';
+	    container.appendChild(el);
+	});
+	queryAndForEach('table thead tr', function(el) {
+	    el.className = 'mdc-data-table__header-row';
+	});
+	queryAndForEach('table thead tr th', function(el) {
+	    el.className = 'mdc-data-table__header-cell';
+	});
+	queryAndForEach('table tbody', function(el) {
+	    el.className = 'mdc-data-table__content';
+	});
+	queryAndForEach('table tbody tr', function(el) {
+	    el.className = 'mdc-data-table__row';
+	});
+	queryAndForEach('table tbody tr td', function(el) {
+	    el.className = 'mdc-data-table__cell';
+	});
+    }
+  </script>
   {% seo %}
 </head>
