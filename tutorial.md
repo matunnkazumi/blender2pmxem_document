@@ -2,31 +2,32 @@
 layout: article
 title: 使い方ガイド
 date: 2019-10-26 14:44:30 +0900
-last_modified_at: 2019-10-27 16:43:53 +0900
+last_modified_at: 2019-10-27 16:55:52 +0900
 ---
-## ダウンロード
+## ダウンロードしましょう
 [Release](https://github.com/matunnkazumi/blender2pmxem/releases)ページから「blender2pmxem.zip」をクリックしてダウンロードしてください
 
+## インストールしましょう
 
-## インストール
 通常のアドオンと同様です。zipを展開してアドオンフォルダに置いてください。
 
 ## アドオン設定
-初めて使う場合は「日本語のボーン名を使う」の方がわかりやすいですかね？　お好みに応じてご自由に
+お好みに応じてご自由に。
 
 ![My helpful screenshot](/assets/image/tutorial/pref.png)
 
+「日本語のボーン名を使う」をオンにしない場合の、英名と日本語名の変換ルールは、[ボーンの和名と英名の対応関係](/misc/bone_names_japanese_and_english)を参照してください。
 
-## で、モデルを作りましょう。
+## モデルを作りましょう
 ![My helpful screenshot](/assets/image/tutorial/modeling_start.png)
 
-サイドバー(nキーで表示)に色々な機能があるので、使ってみてください
+サイドバー(nキーで表示)に色々な機能があるので、使ってみてください。
 
 ![My helpful screenshot](/assets/image/tutorial/sidebar.png)
 
 ## アーマチュアの雛形
-まっさらから作る場合は、「アーマチュアの雛形をアペンド」のアーマチュアを使うと良いでしょう
-MMD標準のボーン構成のアーマチュアが追加されます
+まっさらから作る場合は、「アーマチュアの雛形をアペンド」のアーマチュアを使うと良いでしょう。
+MMD標準のボーン構成のアーマチュアが追加されます。
 
 ![My helpful screenshot](/assets/image/tutorial/append_armature.png)
 ![My helpful screenshot](/assets/image/tutorial/appended_armature.png)
@@ -47,11 +48,12 @@ MMD標準のボーン構成のアーマチュアが追加されます
 * 「開く」からテクスチャ画像ファイルを指定  
   ![My helpful screenshot](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_image_file.png)
 
-## だいたい出来上がったらエクスポートしましょう。
+## 適当なところで一回エクスポートしましょう
 ![My helpful screenshot](/assets/image/tutorial/export.png)
 
 エクスポートするメッシュにはマテリアルとアーマチュアモディファイアーを設定してください。
-これが無いオブジェクトはエクスポートされません
+
+これが無いオブジェクトはエクスポートされません。
 
 ![My helpful screenshot](/assets/image/tutorial/armature_modifier.png)
 ![My helpful screenshot](/assets/image/tutorial/material.png)
@@ -62,7 +64,7 @@ MMD標準のボーン構成のアーマチュアが追加されます
 ![My helpful screenshot](/assets/image/tutorial/select_armature.png)
 
 ## PMXエディタで材質設定
-Blenderのマテリアルの色は反映されないので、PMXエディタで設定してください
+Blenderのマテリアルの色は反映されないので、PMXエディタで設定してください。
 
 ![My helpful screenshot](/assets/image/tutorial/pmx_editor_material_color.png)
 
@@ -95,3 +97,6 @@ PMXエディタのセットアップした内容は、ある程度なら、Blend
 とりあえず、ミラーモディファイア用には、ボーン名を左右対象にしておくとよさそう(闇鍋プラグイン使用)
 
 ![My helpful screenshot](/assets/image/tutorial/yaminabe_plugin.PNG)
+
+## 説明は以上です
+こんな感じでBlenderとPMXエディタを行ったり来たりしながらMMDモデルを作っていきましょう。
