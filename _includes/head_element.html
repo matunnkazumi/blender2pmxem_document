@@ -6,5 +6,34 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <script src="https://kit.fontawesome.com/907a1a0884.js" crossorigin="anonymous"></script>
+  <script>
+    window.onload = function() {
+	document.querySelectorAll('table').forEach(function(el) {
+	    const container = document.createElement('div');
+	    container.className = 'mdc-data-table table_container';
+
+	    const parent = el.parentElement;
+	    parent.insertBefore(container, el);
+	    
+	    el.className = 'mdc-data-table__table';
+	    container.appendChild(el);
+	});
+	document.querySelectorAll('table thead tr').forEach(function(el) {
+	    el.className = 'mdc-data-table__header-row';
+	});
+	document.querySelectorAll('table thead tr th').forEach(function(el) {
+	    el.className = 'mdc-data-table__header-cell';
+	});
+	document.querySelectorAll('table tbody').forEach(function(el) {
+	    el.className = 'mdc-data-table__content';
+	});
+	document.querySelectorAll('table tbody tr').forEach(function(el) {
+	    el.className = 'mdc-data-table__row';
+	});
+	document.querySelectorAll('table tbody tr td').forEach(function(el) {
+	    el.className = 'mdc-data-table__cell';
+	});
+    }
+  </script>
   {% seo %}
 </head>
