@@ -1,9 +1,10 @@
 ---
 layout: article
 title: このサイトについて
-date: XXX
-last_modified_at: XXXX
+date: 2019-10-27 15:24:22 +0900
+last_modified_at: 2019-10-27 15:26:36 +0900
 ---
+
 ## このサイトについて
 このサイトは、(blender2pmxem)[https://github.com/matunnkazumi/blender2pmxem]に関する資料をまとめたものです
 
