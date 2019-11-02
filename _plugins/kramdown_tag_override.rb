@@ -49,6 +49,17 @@ module HtmlTagExtended
 
     super(el, indent)
   end
+
+  def convert_header(el, indent)
+
+    level = output_header_level(el.options[:level])    
+    add_class = "mdc-typography--headline#{level}"
+    new_attr = add_class_attribute(el.attr, add_class)
+
+    el.attr.replace(new_attr)
+
+    super(el, indent)
+  end
 end
 
 module Kramdown
