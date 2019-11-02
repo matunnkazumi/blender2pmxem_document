@@ -2,20 +2,20 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-27 00:39:17 +0900
+last_modified_at: 2019-11-02 18:43:04 +0900
 ---
-# pmxstatus
-## pmdinfo
-### name
+## pmxstatus
+### pmdinfo
+#### name
 モデル名
-### name_e
+#### name_e
 モデル名英
-### comment
+#### comment
 コメント
-### comment_e
+#### comment_e
 コメント英
-## morphs
-### morph
+### morphs
+#### morph
 モーフ
 
 |属性名|意味|
@@ -25,8 +25,8 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |name|モーフ名|
 |name_e|モーフ名英|
 
-## bones
-### bone
+### bones
+#### bone
 ボーン
 
 |属性名|意味|
@@ -47,7 +47,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |rotatable|回転可能|
 |visible|表示|
 
-#### local_x
+##### local_x
 ローカル軸 X軸の方向ベクトル
 
 |属性名|意味|
@@ -56,7 +56,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### local_z
+##### local_z
 ローカル軸 Z軸の方向ベクトル
 
 |属性名|意味|
@@ -65,8 +65,8 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-## labels
-### label
+### labels
+#### label
 表示枠
 
 |属性名|意味|
@@ -75,7 +75,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |name_e|枠名英|
 |type|特殊枠フラグ 0:通常枠 1:特殊枠|
 
-#### tab
+##### tab
 要素対象
 
 |属性名|意味|
@@ -83,8 +83,8 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |name|要素対象のPMX上の名前|
 |type|要素対象 0:ボーン 1:モーフ|
 
-## materials
-### material
+### materials
+#### material
 材質
 
 |属性名|意味|
@@ -102,7 +102,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |use_systemtoon|ユーザー設定トゥーン|
 |power|反射強度|
 
-#### edge_color
+##### edge_color
 エッジ色
 
 |属性名|意味|
@@ -112,7 +112,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |g|緑 0〜1|
 |b|青 0〜1|
 
-#### deffuse
+##### deffuse
 拡散色
 
 |属性名|意味|
@@ -122,7 +122,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |g|緑 0〜1|
 |b|青 0〜1|
 
-#### specular
+##### specular
 反射色
 
 |属性名|意味|
@@ -131,7 +131,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |g|緑 0〜1|
 |b|青 0〜1|
 
-#### ambient
+##### ambient
 環境色
 
 |属性名|意味|
@@ -140,7 +140,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |g|緑 0〜1|
 |b|青 0〜1|
 
-#### sphere
+##### sphere
 スフィア設定
 
 |属性名|意味|
@@ -148,9 +148,9 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |path|スフィアマップ画像へのファイルパス|
 |type|0:無効 1:乗算スフィア 2:加算スフィア 3:サブTex|
 
-## rigid_bodies
+### rigid_bodies
 
-### rigid
+#### rigid
 剛体
 
 |属性名|意味|
@@ -168,7 +168,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |shape|形状 0:球 1:箱 2:カプセル|
 |type|タイプ 0:ボーン追従 1:物理演算 2:物理演算 + Bone位置合わせ|
 
-#### size
+##### size
 剛体サイズ
 
 |属性名|意味|
@@ -177,7 +177,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |b||
 |c||
 
-#### pos
+##### pos
 剛体位置
 
 |属性名|意味|
@@ -186,7 +186,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### rot
+##### rot
 剛体回転
 
 |属性名|意味|
@@ -195,9 +195,9 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-## constraints
+### constraints
 
-### constraint
+#### constraint
 ジョイント
 
 |属性名|意味|
@@ -207,7 +207,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |name|ジョイント名|
 |name_e|ジョイント名英|
 
-#### pos
+##### pos
 ジョイント位置
 
 |属性名|意味|
@@ -216,7 +216,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### rot
+##### rot
 ジョイント回転
 
 |属性名|意味|
@@ -225,9 +225,9 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### pos_limit
+##### pos_limit
 移動制限
-##### from
+###### from
 下限
 
 |属性名|意味|
@@ -236,7 +236,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-##### to
+###### to
 上限
 
 |属性名|意味|
@@ -245,9 +245,9 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### rot_limit
+##### rot_limit
 回転制限
-##### from
+###### from
 下限
 
 |属性名|意味|
@@ -256,7 +256,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-##### to
+###### to
 上限
 
 |属性名|意味|
@@ -265,7 +265,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### pos_spring
+##### pos_spring
 バネ移動
 
 |属性名|意味|
@@ -274,7 +274,7 @@ last_modified_at: 2019-10-27 00:39:17 +0900
 |y||
 |z||
 
-#### rot_spring
+##### rot_spring
 バネ回転
 
 |属性名|意味|
