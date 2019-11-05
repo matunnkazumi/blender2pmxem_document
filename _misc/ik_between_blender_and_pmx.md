@@ -2,13 +2,13 @@
 layout: article
 title: IKの変換
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-27 00:39:17 +0900
+last_modified_at: 2019-11-05 22:36:59 +0900
 ---
 
 ![IKコンストレイントのパラメータの変換](/assets/image/misc/ik_conversion_constraints.png)
 ![Linkの変換](/assets/image/misc/ik_conversion_links.png)
 
-## 変換の方法
+## 変換規則
 
 * IKコンストレイントのあるボーンが対象
 * IKコンストレイントのターゲットボーンに、PMXのIKフラグが設定される
