@@ -2,13 +2,13 @@
 layout: article
 title: Blender 2.79以前 + Blender2Pmxe からの移行ガイド
 date: 2019-10-25 00:05:01 +0900
-last_modified_at: 2019-10-27 00:39:17 +0900
+last_modified_at: 2019-12-03 00:02:09 +0900
 ---
-Blender 2.79以前 + Blender2Pmxe でMMDモデルを作っていた場合の、blendファイルとXMLファイルの移行手順のガイドラインです
+Blender 2.79以前 + Blender2Pmxe でMMDモデルを作っていた場合の、blendファイルとXMLファイルの移行手順のガイドラインです。
 
-あくまで、ドキュメント製作者の運用方法を元にした手順ですので、皆様の使い方に合わせて適宜アレンジしてください
+あくまで、ドキュメント製作者の運用方法を元にした手順ですので、皆様の使い方に合わせて適宜アレンジしてください。
 
-バックアップはお忘れなく
+バックアップはお忘れなく。
 
 ## Blender 2.79以前での作業その１：輪郭線の削除
 輪郭線機能は削除しました。この機能を使っていた方は、移行前に予め削除してください。
@@ -23,7 +23,7 @@ XMLファイルを利用していた方は、移行後に改めて作り直す�
 ![Blender 2.79でエクスポート](/assets/image/migration/export_from_279.png)
 
 ## Blender 2.80での作業その１：Blender 2.80で開く
-blendファイルをBlender 2.80で開きます
+blendファイルをBlender 2.80で開きます。
 
 ![Blender 2.80で開く](/assets/image/migration/open_by_280.png)
 
