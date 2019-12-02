@@ -52,8 +52,24 @@ module HtmlTagExtended
 
   def convert_header(el, indent)
 
-    level = output_header_level(el.options[:level])    
-    add_class = "mdc-typography--headline#{level}"
+    level = output_header_level(el.options[:level])
+    add_class =
+      case level
+      when 1
+        'mdc-typography--headline3'
+      when 2
+        'mdc-typography--headline4'
+      when 3
+        'mdc-typography--headline5'
+      when 4
+        'mdc-typography--headline6'
+      when 5
+        'mdc-typography--subtitle1'
+      when 6
+        'mdc-typography--subtitle2'
+      else
+        ''
+      end
     new_attr = add_class_attribute(el.attr, add_class)
 
     el.attr.replace(new_attr)
