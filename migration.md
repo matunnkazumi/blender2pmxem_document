@@ -2,7 +2,7 @@
 layout: article
 title: Blender 2.79以前 + Blender2Pmxe からの移行ガイド
 date: 2019-10-25 00:05:01 +0900
-last_modified_at: 2019-12-03 00:02:09 +0900
+last_modified_at: 2019-12-03 00:21:00 +0900
 ---
 Blender 2.79以前 + Blender2Pmxe でMMDモデルを作っていた場合の、blendファイルとXMLファイルの移行手順のガイドラインです。
 
@@ -22,12 +22,12 @@ XMLファイルを利用していた方は、移行後に改めて作り直す�
 
 ![Blender 2.79でエクスポート](/assets/image/migration/export_from_279.png)
 
-## Blender 2.80での作業その１：Blender 2.80で開く
-blendファイルをBlender 2.80で開きます。
+## Blender 2.80以降での作業その１：Blender 2.80で開く
+blendファイルをBlender 2.80以降で開きます。
 
 ![Blender 2.80で開く](/assets/image/migration/open_by_280.png)
 
-## Blender 2.80での作業その２：マテリアル再設定 テクスチャ
+## Blender 2.80以降での作業その２：マテリアル再設定 テクスチャ
 エクスポーターに合わせてマテリアルを再設定します。最低限、テクスチャファイルだけ以下のように指定してください。
 
 * マテリアルにプリンシプルBSDFノードを設定  
@@ -37,14 +37,14 @@ blendファイルをBlender 2.80で開きます。
 * 「開く」からテクスチャ画像ファイルを指定  
   ![画像ファイル](/assets/image/tutorial/PMX_Blender_Material_principled_bsdf_image_file.png)
 
-## Blender 2.80での作業その３：XMLファイル再作成
+## Blender 2.80以降での作業その３：XMLファイル再作成
 「Blender 2.79以前での作業その２：エクスポート」で作成しておいたPMXファイルを使って、XMLファイルを作成してください。
 
 XMLファイルに手を入れて使っていた方は、再作成したファイルをもとに改めて修正し直すことを推奨します。
 
 ![XML作成](/assets/image/migration/make_xml.png)
 
-## Blender 2.80での作業その４：エクスポート
+## Blender 2.80以降での作業その４：エクスポート
 それでは移行したblendファイルとXMLファイルを使って、エクスポートしてみましょう。
 
 ![Blender 2.80でエクスポート](/assets/image/migration/export_from_280.png)
