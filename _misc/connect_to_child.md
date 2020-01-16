@@ -1,8 +1,8 @@
 ---
 layout: article
 title: 表示先になるボーン
-date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-11-05 22:36:59 +0900
+date: 2020-01-17 00:24:59 +0900
+last_modified_at: 2020-01-17 00:26:25 +0900
 ---
 
 ![表示先になるボーンの図解](/assets/image/misc/connect_to_child.png)
