@@ -1,8 +1,10 @@
 ---
 layout: article
 title: 表示先になるボーン
+description: エクスポーターによる表示先ボーンの決定方法の説明
+image: /assets/image/misc/connect_to_child.png
 date: 2020-01-17 00:24:59 +0900
-last_modified_at: 2020-01-17 00:26:25 +0900
+last_modified_at: 2020-01-17 00:30:37 +0900
 ---
 
 ![表示先になるボーンの図解](/assets/image/misc/connect_to_child.png)
