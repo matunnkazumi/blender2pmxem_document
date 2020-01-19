@@ -3,8 +3,8 @@ layout: article
 title: IKの先ボーンの追加
 description: IKボーンの変換中に、エクスポーターが追加するボーンの説明
 image: /assets/image/misc/tip_bone_added.png
-date: 2020-01-17 00:24:59 +0900
-last_modified_at: 2020-01-17 00:34:57 +0900
+date: 2020-01-19 21:07:44 +0900
+last_modified_at: 2020-01-19 21:08:59 +0900
 ---
 
 ## 追加されるボーン
