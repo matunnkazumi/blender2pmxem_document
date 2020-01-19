@@ -2,7 +2,7 @@
 layout: article
 title: IKの変換
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-11-05 22:36:59 +0900
+last_modified_at: 2020-01-19 21:17:59 +0900
 ---
 
 ![IKコンストレイントのパラメータの変換](/assets/image/misc/ik_conversion_constraints.png)
@@ -14,6 +14,7 @@ last_modified_at: 2019-11-05 22:36:59 +0900
 * IKコンストレイントのターゲットボーンに、PMXのIKフラグが設定される
 * IKコンストレイントのあるボーンの表示先のボーンが、PMXのIKのTargetになる
   * 表示先ボーンが無い場合は、エクスポーターで追加する
+  * 追加されるボーンの説明 → [IKの先ボーンの追加](/misc/add_tip_bone)
 * IKコンストレイントのターゲットボーンのカスタムプロパティで以下のパラメータを設定
   * カスタムプロパティ：IKLoops → PMX：Loop
     * 存在しない場合は10
