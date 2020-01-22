@@ -2,9 +2,9 @@
 layout: article
 title: モデル情報XMLのボーン並び順指定と、つま先ボーンなど
 description: モデル情報のXMLのボーンの並び順指定が、一部のボーンに反映されない件とその対処方
-image: /assets/image/misc/connect_to_child.png
+image: /assets/image/misc/bone_sort_tip_bone_foot.png
 date: 2020-01-22 22:21:30 +0900
-last_modified_at: 2020-01-22 22:22:22 +0900
+last_modified_at: 2020-01-22 23:12:02 +0900
 ---
 
 ## ボーンの並び順のカスタマイズ方法
@@ -17,7 +17,9 @@ blender2pmxemでは、そのXMLファイルを利用して、ボーンの並び�
 
 ## 一部のボーンはその順序が反映されません
 
-このように、つま先ボーンの位置が反映されていません。
+その現象が発生している例。つま先ボーンの位置が反映されていません。
+
+![XMLの順に並んでいないつま先ボーン](/assets/image/misc/bone_sort_tip_bone_order.png)
 
 つま先ボーンは、エクスポーターが自動的に追加するボーンの一つです。
 
@@ -25,6 +27,11 @@ blender2pmxemでは、そのXMLファイルを利用して、ボーンの並び�
 
 Blender側で、そのボーンを追加しておくとXMLの指定が反映されるようになります。
 
+![つま先ボーン設定](/assets/image/misc/bone_sort_tip_bone_toe_bone_setting.png)
+
+つま先ボーンの場合は以下のようにします。
+* 足首ボーンの直接の子ボーン
+* 「接続」のチェックを入れる
 
 ## 細かい話
 
