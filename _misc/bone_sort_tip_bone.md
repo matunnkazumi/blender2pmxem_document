@@ -4,10 +4,10 @@ title: モデル情報XMLのボーン並び順指定と、つま先ボーンな�
 description: モデル情報のXMLのボーンの並び順指定が、一部のボーンに反映されない件とその対処方
 image: /assets/image/misc/bone_sort_tip_bone_foot.png
 date: 2020-01-22 22:21:30 +0900
-last_modified_at: 2020-01-22 23:12:02 +0900
+last_modified_at: 2020-01-22 23:21:11 +0900
 ---
 
-## ボーンの並び順のカスタマイズ方法
+## ボーンの並び順の指定機能
 
 Blender2Pmx系のエクスポーターでは、PMX形式の情報の一部をXMLファイルに保存し、再エクスポート時に反映させることができます。
 
@@ -23,15 +23,15 @@ blender2pmxemでは、そのXMLファイルを利用して、ボーンの並び�
 
 つま先ボーンは、エクスポーターが自動的に追加するボーンの一つです。
 
-## 対処方法：Blender上で、そのボーンを追加しておくと順序が反映されます
+## 対処方法：Blender側でそのボーンを追加しておくと順序が反映されます
 
-Blender側で、そのボーンを追加しておくとXMLの指定が反映されるようになります。
-
-![つま先ボーン設定](/assets/image/misc/bone_sort_tip_bone_toe_bone_setting.png)
+Blender側で予めそのボーンを追加しておくと、XMLの指定が反映されるようになります。
 
 つま先ボーンの場合は以下のようにします。
 * 足首ボーンの直接の子ボーン
 * 「接続」のチェックを入れる
+
+![つま先ボーン設定](/assets/image/misc/bone_sort_tip_bone_toe_bone_setting.png)
 
 ## 細かい話
 
