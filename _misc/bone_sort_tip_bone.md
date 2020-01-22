@@ -3,8 +3,8 @@ layout: article
 title: モデル情報XMLのボーン並び順指定と、つま先ボーンなど
 description: モデル情報のXMLのボーンの並び順指定が、一部のボーンに反映されない件とその対処方
 image: /assets/image/misc/connect_to_child.png
-date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-10-27 00:39:17 +0900
+date: 2020-01-22 22:21:30 +0900
+last_modified_at: 2020-01-22 22:22:22 +0900
 ---
 
 ## ボーンの並び順のカスタマイズ方法
