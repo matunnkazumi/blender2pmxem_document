@@ -2,7 +2,7 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2019-11-02 18:43:04 +0900
+last_modified_at: 2020-03-18 23:11:54 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -202,8 +202,8 @@ last_modified_at: 2019-11-02 18:43:04 +0900
 
 |属性名|意味|
 ---|---
-|body_A|接続剛体Aのインデックス|
-|body_B|接続剛体Bのインデックス|
+|body_A|接続剛体Aの剛体名|
+|body_B|接続剛体Bの剛体名|
 |name|ジョイント名|
 |name_e|ジョイント名英|
 
