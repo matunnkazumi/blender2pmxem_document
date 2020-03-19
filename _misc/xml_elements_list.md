@@ -2,7 +2,7 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-03-18 23:11:54 +0900
+last_modified_at: 2020-03-19 23:18:10 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -173,9 +173,9 @@ last_modified_at: 2020-03-18 23:11:54 +0900
 
 |属性名|意味|
 ---|---
-|a||
-|b||
-|c||
+|a|幅|
+|b|高さ|
+|c|奥行|
 
 ##### pos
 剛体位置
