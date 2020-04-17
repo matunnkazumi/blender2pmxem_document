@@ -10,7 +10,7 @@ collections:
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
-url: https://blender2pmxem.netlify.com
+url: https://blender2pmxem.netlify.app
 
 lang: ja_JP
 
