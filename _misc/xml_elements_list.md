@@ -2,7 +2,7 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-06-06 21:23:00 +0900
+last_modified_at: 2020-06-06 21:29:15 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -24,6 +24,32 @@ last_modified_at: 2020-06-06 21:23:00 +0900
 |group|操作パネル 1:眉 2:目 3:口 4:その他 |
 |name|モーフ名|
 |name_e|モーフ名英|
+
+##### bone_offfsets
+###### bone_offset
+ボーンモーフ
+
+|属性名|意味|
+---|---
+|bone_name|ボーン名 Blender上の名前|
+
+bone_move
+: ボーンモーフ 移動量
+
+|属性名|意味|
+---|---
+|x|X軸移動量|
+|y|Y軸移動量|
+|z|Y軸移動量|
+
+bone_rotate
+: ボーンモーフ 回転量
+
+|属性名|意味|
+---|---
+|x|X軸回転量 オイラー角|
+|y|Y軸回転量 オイラー角|
+|z|Y軸回転量 オイラー角|
 
 ##### material_offsets
 ###### material_offset
