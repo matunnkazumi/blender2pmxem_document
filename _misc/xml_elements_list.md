@@ -1,8 +1,10 @@
 ---
 layout: article
 title: XMLの項目
+description: XMLの要素と属性の一覧
+image: /assets/image/misc/xml_sample_image.png
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-03-19 23:18:10 +0900
+last_modified_at: 2020-06-06 22:02:42 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -20,10 +22,125 @@ last_modified_at: 2020-03-19 23:18:10 +0900
 
 |属性名|意味|
 ---|---
-|b_name|Blender上のシェイプキー名|
+|b_name|モーフ名 頂点モーフの場合はBlender上のシェイプキー名|
 |group|操作パネル 1:眉 2:目 3:口 4:その他 |
 |name|モーフ名|
 |name_e|モーフ名英|
+|type|モーフ種類 0:グループ 1:頂点 2:ボーン 8:材質|
+
+##### group_offsets
+###### group_offset
+グループモーフ
+
+|属性名|意味|
+---|---
+|morph_name|モーフ名 morph要素b_name属性の値を指定する|
+|power|影響度|
+
+##### bone_offfsets
+###### bone_offset
+ボーンモーフ
+
+|属性名|意味|
+---|---
+|bone_name|ボーン名 Blender上の名前|
+
+bone_move
+: ボーンモーフ 移動量
+
+|属性名|意味|
+---|---
+|x|X軸移動量|
+|y|Y軸移動量|
+|z|Y軸移動量|
+
+bone_rotate
+: ボーンモーフ 回転量
+
+|属性名|意味|
+---|---
+|x|X軸回転量 オイラー角|
+|y|Y軸回転量 オイラー角|
+|z|Y軸回転量 オイラー角|
+
+##### material_offsets
+###### material_offset
+材質モーフ
+
+|属性名|意味|
+---|---
+|edge_size|エッジサイズ|
+|effect_type|オフセット演算形式 0:乗算 1:加算|
+|material_name|材質名 Blender上の名前|
+|power|反射強度|
+
+mat_diffuse
+: 材質モーフ 拡散色
+
+|属性名|意味|
+---|---
+|a|アルファ値 0〜1|
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_speculer
+: 材質モーフ 反射色
+
+|属性名|意味|
+---|---
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_ambient
+: 材質モーフ 環境色
+
+|属性名|意味|
+---|---
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_edge_color
+: 材質モーフ エッジ色
+
+|属性名|意味|
+---|---
+|a|アルファ値 0〜1|
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_texture
+: 材質モーフ Tex
+
+|属性名|意味|
+---|---
+|a|アルファ値 0〜1|
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_sphere
+: 材質モーフ スフィア
+
+|属性名|意味|
+---|---
+|a|アルファ値 0〜1|
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
+
+mat_toon
+: 材質モーフ Toon
+
+|属性名|意味|
+---|---
+|a|アルファ値 0〜1|
+|r|赤 0〜1|
+|g|緑 0〜1|
+|b|青 0〜1|
 
 ### bones
 #### bone
@@ -101,6 +218,7 @@ last_modified_at: 2020-03-19 23:18:10 +0900
 |toon|トゥーン|
 |use_systemtoon|ユーザー設定トゥーン|
 |power|反射強度|
+|memo|メモ|
 
 ##### edge_color
 エッジ色
