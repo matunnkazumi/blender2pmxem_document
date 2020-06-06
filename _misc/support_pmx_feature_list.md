@@ -1,8 +1,10 @@
 ---
 layout: article
 title: PMX対応項目
+description: 対応する項目の一覧表
+image: /assets/image/misc/pmx_editor_top.png
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-06-06 20:52:07 +0900
+last_modified_at: 2020-06-06 20:57:58 +0900
 ---
 ## エクスポーター・インポーターが対応しているPMXの項目
 
