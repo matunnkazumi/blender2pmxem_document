@@ -2,7 +2,7 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-06-06 21:39:56 +0900
+last_modified_at: 2020-06-06 21:42:29 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -20,10 +20,11 @@ last_modified_at: 2020-06-06 21:39:56 +0900
 
 |属性名|意味|
 ---|---
-|b_name|Blender上のシェイプキー名|
+|b_name|モーフ名 頂点モーフの場合はBlender上のシェイプキー名|
 |group|操作パネル 1:眉 2:目 3:口 4:その他 |
 |name|モーフ名|
 |name_e|モーフ名英|
+|type|モーフ種類 0:グループ 1:頂点 2:ボーン 8:材質|
 
 ##### group_offsets
 ###### group_offset
