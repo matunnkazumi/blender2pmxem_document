@@ -2,7 +2,7 @@
 layout: article
 title: XMLの項目
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-06-06 21:29:15 +0900
+last_modified_at: 2020-06-06 21:39:56 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -24,6 +24,15 @@ last_modified_at: 2020-06-06 21:29:15 +0900
 |group|操作パネル 1:眉 2:目 3:口 4:その他 |
 |name|モーフ名|
 |name_e|モーフ名英|
+
+##### group_offsets
+###### group_offset
+グループモーフ
+
+|属性名|意味|
+---|---
+|morph_name|モーフ名 morph要素b_name属性の値を指定する|
+|power|影響度|
 
 ##### bone_offfsets
 ###### bone_offset
