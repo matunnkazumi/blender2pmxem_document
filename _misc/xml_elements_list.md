@@ -4,7 +4,7 @@ title: XMLの項目
 description: XMLの要素と属性の一覧
 image: /assets/image/misc/xml_sample_image.png
 date: 2019-10-26 14:31:15 +0900
-last_modified_at: 2020-06-06 21:54:44 +0900
+last_modified_at: 2020-06-06 22:02:42 +0900
 ---
 ## pmxstatus
 ### pmdinfo
@@ -218,6 +218,7 @@ mat_toon
 |toon|トゥーン|
 |use_systemtoon|ユーザー設定トゥーン|
 |power|反射強度|
+|memo|メモ|
 
 ##### edge_color
 エッジ色
