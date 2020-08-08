@@ -16,7 +16,7 @@ module HtmlTagExtended
   def convert_table(el, indent)
     table = format_with_extended(el, indent + 1, 'mdc-data-table__table')
         
-    div_attr = Kramdown::Utils::OrderedHash.new
+    div_attr = Hash.new
     div_attr['class'] = 'mdc-data-table table_container'
     format_as_indented_block_html('div', div_attr, table, indent)
   end
