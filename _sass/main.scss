@@ -23,15 +23,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    &-title {
-	text-align: center;
-	@include mq_small {
-	    word-break : break-all;
-	}
-    }
-    &-summary {
-	text-align: right;
-    }
 
     $block_height: 500px;
     height: $block_height;
@@ -47,6 +38,16 @@ body {
     }
     @include mq_small {
 	background-size: auto $block_height;
+    }
+
+    &-title {
+	text-align: center;
+	@include mq_small {
+	    word-break : break-all;
+	}
+    }
+    &-summary {
+	text-align: right;
     }
 }
 .index-main {
